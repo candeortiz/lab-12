@@ -18,6 +18,7 @@ public class RoshamboApp {
 		// Make a loop to control and eventl. repeat name
 		boolean contName = true;
 		while (contName) {
+			name = scan.nextLine();
 			if (validator.isValidName(name)) {
 				// what happens if wrong
 				contName = false;
@@ -28,7 +29,7 @@ public class RoshamboApp {
 		System.out.println("Welcome, " + name + "!");
 
 		// select the opponent
-
+	}
 		boolean contOpponent = true;
 		// control event. repeat
 		while (contOpponent) {
